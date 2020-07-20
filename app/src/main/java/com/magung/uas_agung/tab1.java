@@ -96,7 +96,6 @@ public class tab1 extends Fragment {
 
                         String name, height, mass, birth_year, gender;
                         people = new ArrayList<>();
-                        Log.e("test",  response.toString());
                         try {
                             JSONArray jsonArray = response.getJSONArray("results");
                             people.clear();
@@ -123,7 +122,6 @@ public class tab1 extends Fragment {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Log.e("test",  error.toString());
                         pb.setVisibility(ProgressBar.GONE);
                         Toast.makeText(getContext(), "Connection problem!", Toast.LENGTH_SHORT);
                     }

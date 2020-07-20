@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:padding="5dp"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#525252"
+        android:id="@+id/tv_name_planet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="population"
+        android:textColor="#525252"
+        android:id="@+id/tv_population"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="terrain"
+        android:textColor="#525252"
+        android:id="@+id/tv_terrain"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="diameter"
+        android:textColor="#525252"
+        android:id="@+id/tv_diameter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rotation_period"
+        android:textColor="#525252"
+        android:id="@+id/tv_rotation_period"/>
+
+</LinearLayout>
